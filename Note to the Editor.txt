@@ -1,0 +1,11 @@
+Note to the Editor:
+
+Please note that there is a discrepancy in the parameter ordering between the theoretical notation in the manuscript and the implementation in our R code:
+
+In the manuscript Table: The parameter vector is presented as
+gam.a = c(γ_z, γ_m, γ_x)
+
+In the R code implementation: The actual parameter vector is defined as
+gam.a = c(γ_x, γ_z, γ_m)
+
+This difference in ordering should be taken into account when verifying the correspondence between the reported estimates in the tables and the code outputs. All results in the manuscript are correct based on the theoretical ordering, but readers/reviewers checking the code should be aware of this implementation detail.
