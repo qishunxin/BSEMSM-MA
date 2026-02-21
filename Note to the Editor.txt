@@ -8,4 +8,11 @@ gam.a = c(γ_z, γ_m, γ_x)
 In the R code implementation: The actual parameter vector is defined as
 gam.a = c(γ_x, γ_z, γ_m)
 
+
 This difference in ordering should be taken into account when verifying the correspondence between the reported estimates in the tables and the code outputs. All results in the manuscript are correct based on the theoretical ordering, but readers/reviewers checking the code should be aware of this implementation detail.
+
+
+The complete spatial script file is too large to upload and has been uploaded to Baidu Netdisk for download.  
+Shared via Netdisk: Code  
+Link: https://pan.baidu.com/s/1q4gplK8oxZGi1nTQwWIIVA  
+Extraction code: 6666
