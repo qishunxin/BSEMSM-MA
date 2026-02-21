@@ -16,3 +16,5 @@ The complete spatial script file is too large to upload and has been uploaded to
 Shared via Netdisk: Code  
 Link: https://pan.baidu.com/s/1q4gplK8oxZGi1nTQwWIIVA  
 Extraction code: 6666
+
+The .RData file, which stores the spatial data and does not need to be run, can be downloaded directly from Baidu Netdisk.
