@@ -1,5 +1,5 @@
 rm(list=ls());
-library(mvtnorm)#2t+1
+library(mvtnorm)
 #install.packages("HI");                                   
 library(MASS)
 library(HI)
@@ -1185,3 +1185,4 @@ for (i in 1:length(est.list)) {
 save.image(paste(crep, '.Rdata', sep = ''))
 
  Sys.time()-t0; 
+
